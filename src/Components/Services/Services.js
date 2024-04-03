@@ -9,7 +9,7 @@ const Services = () => {
         {/* description */}
         <div className="services-desc-constainer">
             <h1>My Awesome <span>Services</span></h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dolore voluptatem accusamus nisi, aspernatur dignissimos. Amet, alias vitae autem delectus harum est odio repellendus libero eligendi reiciendis molestias similique repudiandae.</p>
+            <p>I specialize in delivering top-notch web development and captivating UI/UX design solutions, ensuring a seamless digital experience for clients and their users. With a keen eye for detail and cutting-edge technology, I transform ideas into visually stunning and functionally robust online platforms.</p>
             <button>Hire Me</button>
         </div>
         {/* list */}
@@ -18,21 +18,21 @@ const Services = () => {
                 <i className='fa-solid fa-code'></i>
                 <div className="item-desc">
                     <h3>Web Development</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe assumenda placeat explicabo aut tempora dolores libero, magni quis, qui at eaque quasi ipsa eveniet corporis molestias fuga ipsum! Cupiditate, qui.</p>
+                    <p>Harnessing the power of the MERN (MongoDB, Express.js, React.js, Node.js) stack, I craft dynamic and scalable web applications that redefine user experiences. From database management to front-end design, my expertise in MERN development ensures efficient, real-time solutions tailored to modern digital demands. With a focus on flexibility and performance, I deliver immersive web solutions that elevate businesses to new heights.</p>
                 </div>
             </div>
             <div className="services-item">
                 <i className='fa-solid fa-tablet-alt'></i>
                 <div className="item-desc">
                     <h3>UI/UX Design</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit repellendus molestiae reprehenderit, tempore cum blanditiis consequuntur cumque, quidem libero eligendi sequi accusamus saepe harum eaque! Non molestiae at est error.</p>
+                    <p>With Figma as my canvas, I orchestrate immersive and intuitive user experiences that resonate with audiences. From wireframing to prototyping, I leverage Figma's collaborative tools to sculpt visually compelling designs that breathe life into digital interfaces. With meticulous attention to detail and a user-centric approach, I craft interfaces that captivate and delight, ensuring seamless navigation and engagement.</p>
                 </div>
             </div>
             <div className="services-item">
                 <i className='fa-solid fa-desktop'></i>
                 <div className="item-desc">
                     <h3>Frontend Development</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe a iure maxime, qui quis amet culpa ratione adipisci reiciendis cum. Modi sequi perferendis fuga veniam, soluta non illo ex consequatur.</p>
+                    <p>In the dynamic world of frontend development, I specialize in crafting captivating user interfaces that seamlessly blend aesthetics with functionality. Leveraging cutting-edge technologies like HTML, CSS, and JavaScript, I architect intuitive and responsive web applications that elevate user experiences. With a keen eye for design principles and a passion for innovation, I breathe life into pixels, transforming concepts into immersive digital realities that leave a lasting impression.</p>
                 </div>
             </div>
         </div>

@@ -18,7 +18,7 @@ const Header = () => {
                 />
             </h2>
             <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo vitae quaerat architecto magnam quod dolorum, doloribus facere, inventore sint sunt numquam exercitationem et asperiores voluptas nulla doloremque necessitatibus optio temporibus.
+            Deepanshi recently graduated from the Indian Institute of Information Technology, Kota, with a Bachelor's degree in Computer Science. Her technical skills include proficiency in languages like C++, Python, and technologies such as HTML/CSS, JavaScript, and frameworks like ReactJS and NodeJS. Noteworthy projects include a COVID Awareness Website, a Grocery Website, a Money Management App, and a Portfolio Website, showcasing her expertise in UI/UX design and web development. Additionally, Deepanshi has achieved recognition for her problem-solving abilities, completing various programming challenges on platforms like Leetcode and GeeksforGeeks.
             </p>
             <div className="header-payment-container">
                 <button>Hire Me</button>
