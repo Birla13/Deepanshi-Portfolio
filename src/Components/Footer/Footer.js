@@ -8,9 +8,14 @@ const Footer = () => {
       </div>
       <ul className='footer-social-media'>
         <li>
-            <a href="mailto:deepsbirla13@gmail.com  ">
-                 <i className="fa fa-envelope"></i>
-            </a>
+          <a href="https://www.behance.net/deepanshibirla">
+            <i className="fa-brands fa-behance"></i>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:deepsbirla13@gmail.com  ">
+            <i className="fa fa-envelope"></i>
+          </a>
         </li>
         {/* <li>
             <a href="">
@@ -18,14 +23,14 @@ const Footer = () => {
             </a>
         </li> */}
         <li>
-            <a href="https://www.instagram.com/deepanshibirla?igsh=M2d3NnhwbjV4eWRu">
-                 <i className="fa-brands fa-instagram"></i>
-            </a>
+          <a href="https://www.instagram.com/deepanshibirla?igsh=M2d3NnhwbjV4eWRu">
+            <i className="fa-brands fa-instagram"></i>
+          </a>
         </li>
         <li>
-            <a href="https://www.linkedin.com/in/deepanshi-birla-66a573218/">
-                 <i className="fa-brands fa-linkedin"></i>
-            </a>
+          <a href="https://www.linkedin.com/in/deepanshi-birla-66a573218/">
+            <i className="fa-brands fa-linkedin"></i>
+          </a>
         </li>
       </ul>
     </footer>

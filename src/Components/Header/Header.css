@@ -1,10 +1,10 @@
-.header-container{
+.header-container {
     display: flex;
     flex-direction: column;
     /* background-color: #e08804; */
 }
 
-.header-content{
+.header-content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -13,22 +13,22 @@
 
 }
 
-.header-content h1{
+.header-content h1 {
     font-size: 2.5rem;
-    font-family: "Saira",sans-serif;
+    /* font-family: "Saira",sans-serif; */
 }
 
-.header-content p{
+.header-content p {
     font-size: 1.2rem;
     line-height: 1.9;
     color: #70667f;
 }
 
-.fullname{
+.fullname {
     font-size: 2rem;
     color: #e08804;
     margin-top: 10px;
-    font-family: "Play",sans-serif;
+    /* font-family: "Play", sans-serif; */
 }
 
 .header-payment-container {
@@ -36,23 +36,24 @@
     margin-bottom: 30px;
     /* padding-left: 30px; */
 }
-.header-payment-container button{
+
+.header-payment-container button {
     background-color: #fcb212;
     border: none;
     padding: 10px;
     font-size: 1.2rem;
-    font-family: 'Play',sans-serif;
+    /* font-family: 'Play', sans-serif; */
     border-radius: 5px;
     color: #fff;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* image */
-.profile-img-container{
+.profile-img-container {
     position: relative;
 }
 
-.profile-img-container img{
+.profile-img-container img {
     width: 60%;
     height: 40%;
     border-bottom: 10px solid #fcd212;
@@ -61,22 +62,23 @@
     object-fit: cover;
     margin: 10px 70px;
 }
-.circle-1{
+
+.circle-1 {
     position: absolute;
     width: 100px;
     height: 100px;
-    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     bottom: 0;
     margin: 10px;
     border-bottom: 10px solid #e08804;
     border-radius: 10px;
 }
 
-.circle-2{
+.circle-2 {
     position: absolute;
     width: 100px;
     height: 100px;
-    box-shadow: 0 4px 30px  rgba(0,0,0,0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     bottom: 0;
     right: 10px;
     top: 10px;
@@ -85,33 +87,39 @@
 }
 
 /* media queries */
-@media (min-width:768px){
+@media (min-width:768px) {
 
-    .header-content p{
+    .header-content p {
         margin-top: 20px;
     }
-    .header-container{
+
+    .header-container {
         flex-direction: row;
     }
-    .header-content{
+
+    .header-content {
         margin-top: 40px;
         width: 80%;
         margin-left: 30px;
         height: auto;
     }
-    .profile-img-container{
+
+    .profile-img-container {
         padding-left: 60px;
     }
-    .profile-img-container img{
+
+    .profile-img-container img {
         margin-top: 50px;
-        width: 60%;
+        width: 40%;
         height: auto;
     }
-    .circle-1{
-        bottom: 50px;
+
+    .circle-1 {
+        bottom: 8%;
     }
-    .circle-2{
-        margin-right: 130px;
+
+    .circle-2 {
+        margin-right: 280px;
         margin-top: 20px;
     }
 }

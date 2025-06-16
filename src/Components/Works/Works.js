@@ -9,13 +9,20 @@ import "./Works.css"
 
 const Works = () => {
   return (
-    <div className='works-container' id='works'>
-      <h1>My Recent Works</h1>
+    <div className='works-container' id='Projects'>
+      {/* <h1>My Recent Works</h1> */}
+      <div className="services-desc-constainer">
+        <h1>My Selected
+          <br></br><span>Projects</span></h1>
+        {/* <p>I specialize in delivering top-notch web development and captivating UI/UX design solutions, ensuring a seamless digital experience for clients and their users. With a keen eye for detail and cutting-edge technology, I transform ideas into visually stunning and functionally robust online platforms.</p> */}
+      </div>
       <div className="works-list-container">
+
         <div className="works-item">
           <a href='https://deepanshi-portfolio-gamma.vercel.app/' target='_blank'><img src={w1} alt="work1" /></a>
           <div className="about">
             <span>Portfolio</span>
+
             <p><i class="fab fa-html5"></i>
               <i class="fab fa-css3"></i>
               <i class="fab fa-js"></i>
@@ -23,7 +30,7 @@ const Works = () => {
           </div>
         </div>
         <div className="works-item">
-        <a href='https://birla13.github.io/Covid-Safety-Website/' target='_blank'><img src={w2} alt="work2" /></a>
+          <a href='https://birla13.github.io/Covid-Safety-Website/' target='_blank'><img src={w2} alt="work2" /></a>
           <div className="about">
             <span>Covid-Website</span>
             <p><i class="fab fa-html5"></i>
@@ -33,7 +40,7 @@ const Works = () => {
           </div>
         </div>
         <div className="works-item">
-        <a href='https://github.com/Birla13/Portfolio' target='_blank'><img src={w3} alt="work3" /></a>
+          <a href='https://github.com/Birla13/Portfolio' target='_blank'><img src={w3} alt="work3" /></a>
           <div className="about">
             <span>Portfolio UI</span>
             <p><i class="fab fa-figma"></i>
